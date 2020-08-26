@@ -1,9 +1,11 @@
 {
-  "name": "json",
+  "name": "test",
+  "homepage": "https://marisonne.github.io/UIB-test-upload/",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "deploy": "gh-pages -d src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
